@@ -17,7 +17,7 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.STRING
         },
         duracion: {
-            type: Sequelize.INTEGER
+            type: Sequelize.TIME
         },
         tipo: {
             type: Sequelize.STRING

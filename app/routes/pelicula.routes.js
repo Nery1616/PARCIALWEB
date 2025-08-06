@@ -10,7 +10,7 @@ module.exports = app => {
     // Retrieve a single Client with id
     router.get("/:nombre", peliculas.findOne);
     // Update a Client with id
-    router.put("/update/:nombre", peliculas.update);
+    router.put("/update/:id", peliculas.update);
     // Delete a Client with id
     router.delete("/delete/:nombre", peliculas.delete);
     // Delete all Cliente
