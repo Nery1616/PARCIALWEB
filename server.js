@@ -26,7 +26,7 @@ db.sequelize.sync();
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Aplicacion web de biblioteca" });
+  res.json({ message: "Aplicacion web de NETFLIX" });
 });
 
 //require("./app/routes/tutorial.routes")(app);
