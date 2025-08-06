@@ -12,7 +12,7 @@ module.exports = app => {
     // Update a Client with id
     router.put("/update/:id", peliculas.update);
     // Delete a Client with id
-    router.delete("/delete/:nombre", peliculas.delete);
+    router.delete("/delete/:id", peliculas.delete);
     // Delete all Cliente
     router.delete("/delete/", peliculas.deleteAll);
     // Podemos utilizar como una opcion app.use("EndPoint",router" para simplicar el URI
